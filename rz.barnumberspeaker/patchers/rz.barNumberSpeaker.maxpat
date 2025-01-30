@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1612.0, 954.0 ],
+		"rect" : [ 34.0, 62.0, 332.0, 142.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -604,30 +604,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 230.0, 124.0, 48.0, 22.0 ],
-					"text" : "del 250"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.0, 96.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -1185,7 +1161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "int" ],
-					"patching_rect" : [ 230.0, -3.0, 83.0, 22.0 ],
+					"patching_rect" : [ 230.0, 11.0, 83.0, 22.0 ],
 					"text" : "live.thisdevice"
 				}
 
@@ -1245,7 +1221,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -14.0, 11.0, 152.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 141.0, 180.0, 20.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 180.0, 20.0 ],
 					"text" : "..rz.. Bar Number Speaker v. 0.5",
 					"textcolor" : [ 0.701960921287537, 0.701960802078247, 0.701960742473602, 1.0 ],
 					"textjustification" : 1
@@ -1307,7 +1283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 525.75, 353.0, 89.0, 22.0 ],
+					"patching_rect" : [ 526.0, 316.0, 89.0, 22.0 ],
 					"text" : "prepend speed"
 				}
 
@@ -1535,13 +1511,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-46", 0 ],
 					"order" : 0,
 					"source" : [ "obj-21", 0 ]
@@ -1611,13 +1580,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
